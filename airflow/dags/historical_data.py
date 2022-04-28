@@ -17,7 +17,7 @@ def extract_data(url, **kwargs):
 
 
 
-with DAG(dag_id='dag_historical',
+with DAG(dag_id='historical_data',
          default_args={'owner': 'airflow'},
          schedule_interval='@daily',
          start_date=datetime(1999, 2, 1),
