@@ -8,7 +8,9 @@ ____
 Далее запустить команду 
 ```docker-compose up -d```
 Подождать 2 минтуы пока запустяттся все службы.
-Зайти в AIRFLOW по ссылке http://localhost:8001 перейти в Admin -> Connections и создать коннект для базы postgres с параметрами как на фото и паролем ```postgres```
+Зайти в AIRFLOW по ссылке http://localhost:8001 
+Логин ```admin``` пароль ```admin```
+Перейти в Admin -> Connections и создать коннект для базы postgres с параметрами как на фото и паролем ```postgres```
 ![Alt-текст](https://github.com/ewokoman/photo/blob/28ade6f8a6d443cd1f3f27cdf8816b5205305f80/2022-04-28_12-56-11.png "база коннеект")
 ____
 ## Подготовка DAG для загрузки исторических данных  
