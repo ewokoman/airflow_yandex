@@ -6,7 +6,7 @@ ____
 Необходимо скопировать к себе репозиторий и перейти в него.
 
 Далее запустить команду 
-````docker-compose up -d```
+```docker-compose up -d```
 Подождать 2 минтуы пока запустяттся все службы.
 Зайти в AIRFLOW по ссылке http://localhost:8001 перейти в Admin -> Connections и создать коннект для базы postgres с параметрами как на фото и паролем ```postgres```
 ![Alt-текст](https://github.com/ewokoman/photo/blob/28ade6f8a6d443cd1f3f27cdf8816b5205305f80/2022-04-28_12-56-11.png "база коннеект")
@@ -25,7 +25,6 @@ ____
 Работа historical_data
 ![Alt-текст](https://github.com/ewokoman/photo/blob/28ade6f8a6d443cd1f3f27cdf8816b5205305f80/2022-04-28_13-16-53.png "historical_data")
 
-
 Работа data
 ![Alt-текст](https://github.com/ewokoman/photo/blob/master/2022-04-28_13-17-21.png "data")
 
@@ -36,6 +35,7 @@ ____
 Выбрать систему PostgreSql
 Во всех полях вписать ```postgres```
 ![Alt-текст](https://github.com/ewokoman/photo/blob/28ade6f8a6d443cd1f3f27cdf8816b5205305f80/2022-04-28_13-18-24.png "sql_connect")
+
 Нажать на таблицу btc_usd_rate
 Выбрать Select data
 После чего будет видно наполнение талицы
