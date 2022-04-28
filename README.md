@@ -23,9 +23,11 @@ ____
 ## Валидация процесса загрузки
 
 Работа historical_data
+
 ![Alt-текст](https://github.com/ewokoman/photo/blob/28ade6f8a6d443cd1f3f27cdf8816b5205305f80/2022-04-28_13-16-53.png "historical_data")
 
 Работа data
+
 ![Alt-текст](https://github.com/ewokoman/photo/blob/master/2022-04-28_13-17-21.png "data")
 
 ____
