@@ -16,7 +16,7 @@ def extract_data(url, **kwargs):
 
 
 
-with DAG(dag_id='dag',
+with DAG(dag_id='data',
          default_args={'owner': 'airflow'},
          schedule_interval='0 */3 * * *',
          start_date=days_ago(0)
