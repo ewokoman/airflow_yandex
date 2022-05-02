@@ -21,7 +21,7 @@ with DAG(dag_id='historical_data',
          default_args={'owner': 'airflow'},
          schedule_interval='@daily',
          start_date=datetime(1999, 2, 1),
-         end_date = datetime(2005, 3, 1) 
+         end_date = days_ago(1) 
     ) as dag:
 
     extract_data = PythonOperator(
